@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.carousel {
+    width: 400%;
+    max-width: 400px;
+    height: auto; 
+    display: flex; 
+    gap: 20px;
+}
+.titel {
+    color: #cdf909;
+    margin-left: 680px;
+  
+
+}
+
+body{
+    background-image: url('/images/R\ \(1\).jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    font-family: 'Arial', sans-serif; 
+    color: #fff; 
+    /*hier heb ik ene beetje youtube gebruikt en google*/
+}
+
+.professionele-lijst {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    margin-left: 440px;
+}
+
+.professionele-lijst li {
+    background-color: #b8d243; 
+    padding: 15px 20px; 
+    margin-bottom: 10px;
+    border-radius: 8px; 
+    font-family: 'Lora', serif; 
+    font-size: 18px; 
+    color: #333; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; /* hoi meester ik heb hier ene paar youtube videos en google gebruikt */
+}
+
+.professionele-lijst li:hover {
+    transform: translateY(-5px); 
+    background-color: #ab8758; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /*hier ook een beetje als het goed is youtube gebruikt*/
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #F4D03F;
+}
+
+h1, h2 {
+    font-family: 'Lora', serif;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    text-align: center;
+    color: #ead96f;
+    font-family: 'Arial', sans-serif; 
+}
+
+.carousel img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.vast {
+        width: 500px; 
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 1.6;
+        padding-top: 70px; 
+}
+
+.btn {
+  color: #F4D03F;
+
+}
